@@ -29,5 +29,5 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ chocolatechip.surge.sh --token ${{secret.surge_token}}
+      run: surge ./ chocolatechip.surge.sh --token ${{secrets.surge_token}}
       
